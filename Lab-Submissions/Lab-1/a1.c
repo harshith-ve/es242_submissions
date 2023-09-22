@@ -305,7 +305,7 @@ int main()
         "toil"
     };
     int nwords = 5;
-    char buf[256];
+    char buf[256]="";
     generate_splits(a, dict, nwords, buf, NULL, printstr);
     int arr1[]={1,2,3,5,4};
     previous_permutation(arr1,5);
